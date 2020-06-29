@@ -53,10 +53,11 @@ We list the assumptions we aim to test for the first 3 approaches as we describe
 
 We are leaving approaches 4 and 5 out for now because they will depend on the checks we do for the first three, and are both much more complicated.
 
-
-## 1. Objectives
-
 ## 2. Data
+
+The dataset was purchased from Burning Glass Technologies and it is a compilation of large number of job adds that have been in circulation for the last 11 years (2010-2020) and 2007. The full, uncompressed size of the dataset is about 1TB and the full shape is a bit over a quarter of a billion rows and 57 variables.
+
+Click on the link above to find more information about the variables.
 
 ## 3. [Analysis](https://github.com/ramonprz01/bg-insead-project/tree/master/analysis)
 
