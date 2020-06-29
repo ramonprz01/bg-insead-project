@@ -32,7 +32,6 @@ Explanations and examples on how to run the code can be found within each sectio
 
 
 ## 1. Objectives
-{:toc}
 
 > Infer organizational structure (vertical and horizontal) from BurningGlass data
 
@@ -55,23 +54,17 @@ We list the assumptions we aim to test for the first 3 approaches as we describe
 We are leaving approaches 4 and 5 out for now because they will depend on the checks we do for the first three, and are both much more complicated.
 
 ## 2. Data
-{:toc}
 
 The dataset was purchased from Burning Glass Technologies and it is a compilation of large number of job adds that have been in circulation for the last 11 years (2010-2020) and 2007. The full, uncompressed size of the dataset is about 1TB and the full shape is a bit over a quarter of a billion rows and 57 variables.
 
 Click on the link above to find more information about the variables.
 
 ## 3. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
-{:toc}
 
 ## 4. Analysis at Scale
-{:toc}
 
 ## 5. Advanced Analysis
-{:toc}
 
 ## 6. Results
-{:toc}
 
 ## 7. Further Ideas
-{:toc}
