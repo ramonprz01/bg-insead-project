@@ -8,14 +8,15 @@ Explanations and examples on how to run the code can be found within each sectio
 
 1. Objective
 2. Data
-    - Cleaning
+    - [Cleaning](https://github.com/ramonprz01/bg-insead-project/tree/master/cleaning)
     - Samples
-3. Approaches
-    - Keyword Search in Job Add Text
-    - O*NET Occupations
-    - Occupations
-    - Network
-    - Job titles & Matching into hierarchical levels
+3. [Analysis](https://github.com/ramonprz01/bg-insead-project/tree/master/analysis)
+    - [Approach 1: Keyword search in job add text](https://github.com/ramonprz01/bg-insead-project/tree/master/analysis/approach_1)
+    - [Approach 2: O*NET occupations](https://github.com/ramonprz01/bg-insead-project/tree/master/analysis/approach_2)
+    - [Approach 3: Occupations]()
+    - Approach 4: Network Analysis
+    - Approach 5: Developing Prototypical Jobs - Similarity of job ads and O*NET descriptions
+    - Approach 6: Job titles & Matching into hierarchical levels
 4. Analysis at Scale
     - Dask
     - AWS
@@ -51,3 +52,18 @@ A random (or complete, if computationally quick) sample of all ads in a given ti
 We list the assumptions we aim to test for the first 3 approaches as we describe each below. 
 
 We are leaving approaches 4 and 5 out for now because they will depend on the checks we do for the first three, and are both much more complicated.
+
+
+## 1. Objectives
+
+## 2. Data
+
+## 3. [Analysis](https://github.com/ramonprz01/bg-insead-project/tree/master/analysis)
+
+## 4. Analysis at Scale
+
+## 5. Advanced Analysis
+
+## 6. Results
+
+## 7. Further Ideas
