@@ -7,16 +7,16 @@ Explanations and examples on how to run the code can be found within each sectio
 ## Table of Contents
 
 1. Objective
-2. [Data](https://github.com/ramonprz01/bg-insead-project/data)
-    - [Cleaning](https://github.com/ramonprz01/bg-insead-project/cleaning)
+2. [Data](https://ramonprz01.github.io/bg-insead-project/data)
+    - [Cleaning](https://ramonprz01.github.io/bg-insead-project/cleaning)
     - Samples
-3. [Analysis](https://github.com/ramonprz01/bg-insead-project/analysis)
-    - [Approach 1: Keyword search in job add text](https://github.com/ramonprz01/bg-insead-project/analysis/approach_1)
-    - [Approach 2: O*NET occupations](https://github.com/ramonprz01/bg-insead-project/analysis/approach_2)
-    - [Approach 3: Occupations](https://github.com/ramonprz01/bg-insead-project/analysis/approach_3)
-    - [Approach 4: Network Analysis](https://github.com/ramonprz01/bg-insead-project/analysis/approach_4)
-    - [Approach 5: Developing Prototypical Jobs - Similarity of job ads and O*NET descriptions](https://github.com/ramonprz01/bg-insead-project/analysis/approach_5)
-    - [Approach 6: Job titles & Matching into hierarchical levels](https://github.com/ramonprz01/bg-insead-project/analysis/approach_6)
+3. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
+    - [Approach 1: Keyword search in job add text](https://ramonprz01.github.io/bg-insead-project/analysis/approach_1)
+    - [Approach 2: O*NET occupations](https://ramonprz01.github.io/bg-insead-project/approach_2)
+    - [Approach 3: Occupations](https://ramonprz01.github.io/bg-insead-project/analysis/approach_3)
+    - [Approach 4: Network Analysis](https://ramonprz01.github.io/bg-insead-project/analysis/approach_4)
+    - [Approach 5: Developing Prototypical Jobs - Similarity of job ads and O*NET descriptions](https://ramonprz01.github.io/bg-insead-project/analysis/approach_5)
+    - [Approach 6: Job titles & Matching into hierarchical levels](https://ramonprz01.github.io/bg-insead-project/analysis/approach_6)
 4. Analysis at Scale
     - Dask
     - AWS
@@ -61,7 +61,7 @@ The dataset was purchased from Burning Glass Technologies and it is a compilatio
 
 Click on the link above to find more information about the variables.
 
-## 3. [Analysis](https://github.com/ramonprz01/bg-insead-project/analysis)
+## 3. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
 {:toc}
 
 ## 4. Analysis at Scale
