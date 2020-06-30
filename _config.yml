@@ -1,3 +1,25 @@
-theme: jekyll-theme-minimal
-
 markdown: kramdown
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+  
+name: Welcome to the Burning Glass Project at INSEAD
+title: null
+
+github:
+  is_project_page: false
+
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+
+theme: jekyll-theme-cayman

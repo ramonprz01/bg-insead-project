@@ -2,6 +2,8 @@
 
 ![approach1](https://media.giphy.com/media/3ov9kacqGycKQRH6Vy/giphy.gif)
 
+[Go Straight to Code](https://ramonprz01.github.io/bg-insead-project/analysis/approach_1/code)
+
 ## In a Nutshell - > Keyword Search in Job Add Text
 
 **Idea:** We search for keywords in the ads related to hierarchy and separate these into ‘upward looking’ and ‘downward looking’ directions. We classify jobs as ‘high’ in the hierarchy if they contain only downward-looking keywords; we classify jobs as ‘low’ in the hierarchy if they only contain upward-looking keywords; we classify those with at least one instance of each keyword as ‘middle’.
