@@ -19,6 +19,8 @@ Explanations and examples on how to run the code can be found within each sectio
     - [Approach 6: Job titles & Matching into hierarchical levels](https://ramonprz01.github.io/bg-insead-project/analysis/approach_6)
 4. Analysis at Scale
     - Dask
+        - Local Machine
+        - Cluster
     - AWS
 5. Advanced Analysis
     - Machine Learning
