@@ -2,6 +2,8 @@
 
 **Idea:** Get a list of O*NET occupations and their associated job titles (there are over 800 occupations and at least 5-10 titles for each). Get humans to assign each job title within and then across occupations to its likely hierarchical level in a firm, regardless of which firm it’s in. Use continuous bag of words model to expand the job titles in O*NET to the full job title list in burning glass. Once done, we can simply assign levels to each job title in BG based on coder opinion. Then we count the number of unique levels in the firm and consider firms with a larger number of unique levels as ‘more hierarchical’.
 
+**[Get the notebook here](https://nbviewer.jupyter.org/github/ramonprz01/bg-insead-project/blob/master/analysis/approach_2/code/analysis_approach2.ipynb)**
+
 **Assumptions to test:**
 
 Distribution of job titles within occupations: how many job titles correspond to each O*NET code from the BG data (occupation == O*NET code)  

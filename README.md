@@ -12,7 +12,7 @@ Explanations and examples on how to run the code can be found within each sectio
     - Samples
 3. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
     - [Approach 1: Keyword search in job add text](https://ramonprz01.github.io/bg-insead-project/analysis/approach_1)
-    - [Approach 2: O*NET occupations](https://ramonprz01.github.io/bg-insead-project/approach_2)
+    - [Approach 2: O*NET occupations](https://ramonprz01.github.io/bg-insead-project/analysis/approach_2/)
     - [Approach 3: Occupations](https://ramonprz01.github.io/bg-insead-project/analysis/approach_3)
     - [Approach 4: Network Analysis](https://ramonprz01.github.io/bg-insead-project/analysis/approach_4)
     - [Approach 5: Developing Prototypical Jobs - Similarity of job ads and O*NET descriptions](https://ramonprz01.github.io/bg-insead-project/analysis/approach_5)
