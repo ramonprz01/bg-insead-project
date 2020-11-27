@@ -1,0 +1,12 @@
+supervised_ml/*
+spacy/*
+cloud/*
+miscellanious/*
+venv/*
+.ipynb_checkpoints
+.DS_Store
+.vscode
+data/*.csv
+cleaning/clean_industries.ipynb
+cleaning/ft_dev.ipynb
+cleaning/fuzzy_match_code.ipynb
