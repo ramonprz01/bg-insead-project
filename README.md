@@ -8,65 +8,56 @@ Explanations and examples on how to run the code can be found within each sectio
 
 1. Objective
 2. [Data](https://ramonprz01.github.io/bg-insead-project/data)
-    - [Cleaning](https://ramonprz01.github.io/bg-insead-project/cleaning)
-    - Samples
-3. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
-    - [Approach 1: Keyword search in job add text](https://ramonprz01.github.io/bg-insead-project/analysis/approach_1)
-    - [Approach 2: O*NET occupations](https://ramonprz01.github.io/bg-insead-project/analysis/approach_2/)
-    - [Approach 3: Occupations](https://ramonprz01.github.io/bg-insead-project/analysis/approach_3)
-    - [Approach 4: Network Analysis](https://ramonprz01.github.io/bg-insead-project/analysis/approach_4)
-    - [Approach 5: Developing Prototypical Jobs - Similarity of job ads and O*NET descriptions](https://ramonprz01.github.io/bg-insead-project/analysis/approach_5)
-    - [Approach 6: Job titles & Matching into hierarchical levels](https://ramonprz01.github.io/bg-insead-project/analysis/approach_6)
-4. Analysis at Scale
-    - Dask
-        - Local Machine
-        - Cluster
-    - AWS
-5. Advanced Analysis
-    - Machine Learning
-        - Supervised Learning
-        - Unsupervised Learning
-    - Deep Learning
-        - Supervised Learning
-        - Unsupervised Learning
-6. Results
-7. Further Ideas
+3. [Cleaning](https://ramonprz01.github.io/bg-insead-project/cleaning)
+4. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
 
 
 ## 1. Objectives
 
-> Infer organizational structure (vertical and horizontal) from BurningGlass data
+> Infer organizational structure (vertical and horizontal) from job descriptions
 
 What are we really after? It seems our goal is to measure two things:
 How many layers of reporting are there in a given firm? [VERTICAL]
 How many divisions are there in a given firm? [HORIZONTAL]
 
 Or, can we capture variance across companies in terms of:
-Hierarchical layers
-Breadth of divisions
+- Hierarchical layers
+- Breadth of divisions
 
-There are many ways to try to get at these constructs, but none are perfect. We describe here five options, along with their assumptions and drawbacks.
+There are many ways to try to get at these constructs, but none are perfect.
 
-However, we don’t think that we should pick one just yet because we actually lack enough information about whether the assumptions for each will be satisfied. So instead, we propose to test the assumptions of the first 3 approaches listed below on two different data extracts:
-A semi-random selection of firms with a complete history of all their ads [this is to check how much within-firm variation we can get on various measures]
-A random (or complete, if computationally quick) sample of all ads in a given time-period, e.g. one year of data for all firms [this is to check variation across firms]
+## 2. [Data](https://ramonprz01.github.io/bg-insead-project/data)
 
-We list the assumptions we aim to test for the first 3 approaches as we describe each below. 
+The dataset was purchased from Burning Glass Technologies and it is a compilation of large number of job ads that have been posted by many companies over the last 13 years (2007-2020) and 2007.
 
-We are leaving approaches 4 and 5 out for now because they will depend on the checks we do for the first three, and are both much more complicated.
+The data comes with 57 variables and the dictionary is available in the data folder above.
 
-## 2. Data
-
-The dataset was purchased from Burning Glass Technologies and it is a compilation of large number of job adds that have been in circulation for the last 11 years (2010-2020) and 2007. The full, uncompressed size of the dataset is about 1TB and the full shape is a bit over a quarter of a billion rows and 57 variables.
+### Size
+- ~1TB for the full uncompressed data. (CSV files)
+- ~650GB for the cleaned datasets. More details on the cleaning are available in the cleaning folder above. (CSV files)
+- ~150GB for the cleaned datasets composed of only the observations with salary info in them. (parquet files)
+- ~55GB for the cleaned 76k companies datasets. (parquet files)
 
 Click on the link above to find more information about the variables.
 
-## 3. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
+## 3. [Cleaning](https://ramonprz01.github.io/bg-insead-project/cleaning)
 
-## 4. Analysis at Scale
 
-## 5. Advanced Analysis
+## 4. [Analysis](https://ramonprz01.github.io/bg-insead-project/analysis)
 
-## 6. Results
+### Here is where to find what?
 
-## 7. Further Ideas
+1. Clusters based on k-means 
+    - Inside analysis/approach_8 folder
+    - Notebooks 09 and 09p2
+2. Occurrence of up-/downward-directed terms in ads
+    - Inside analysis/approach_8 folder
+    - Notebooks 07 and 
+Occurrences of ‘reports to’ in ads
+Number of salary brackets / peaks in the distribution
+Managerial intensity in job ads at the firm-year level
+Number of unique job posts, occupations and job titles per firm-week
+Any descriptives that you’ve produced at the industry level (e.g. 2- and 4-digit NAICS codes)
+How many companies hire in each code each year
+How many unique job posts there are
+Any details on missing data for these
